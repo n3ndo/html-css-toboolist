@@ -1,0 +1,134 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container-1{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo-text{
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.container-2{
+    max-width: 991px;
+    margin: 0 auto;
+}
+.buttons{
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.button-1{
+    padding: 8px;
+    font-size: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.button-2{
+    padding: 8px;
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid darkgrey;
+    color: darkgray;
+    border-radius: 5px;
+}
+.all-lists{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 1.6;
+}
+#new-task{
+    font-family: sans-serif;
+    list-style-type: disclosure-open;
+    font-weight: 700;
+    font-size: 20px;
+}
+#today{
+    font-family: sans-serif;
+    list-style-type: disclosure-open;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#upcoming{
+    font-family: sans-serif;
+    list-style-type: disclosure-open;
+    font-weight: 700;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.editorial{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    color: white;
+}
+.goals{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    color: white;
+}
+.recruiting{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: seagreen;
+    border-radius: 15px;
+    color: white;
+}
+.mobile{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: darkorange;
+    border-radius: 15px;
+    color: white;
+}
+.website{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: violet;
+    border-radius: 15px;
+    color: white;
+}
+.sales{
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    background-color: olivedrab;
+    border-radius: 15px;
+    color: white;
+}
+.check-list{
+    font-weight: 500;
+}
+.cross-list{
+    font-weight: 500;
+}

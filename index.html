@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <!-- HEADER-->
+        <header>
+            <div class="container-1">
+                <img class="logo" src="./img/Logo.png" alt="logo boolean">
+                <div id="logo-text"> Toboolist </div>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="container-2">
+                <div class="buttons">
+                    <button class="button-1" > Add Task</button>
+                    <button class="button-2" > Add Section</button>
+                </div>
+                <div class="all-lists">
+                    <ul>
+                        <!-- New task list -->
+                        <li id="new-task">New Task
+                            <ul>
+                                <li class="check-list">Quarterly Newsletter <span class="editorial">Editorial</span></li>
+                            </ul>
+                        </li>
+                        <!-- Today list -->
+                        <li id="today">Today
+                            <ul>
+                                <li class="check-list">Recruiting blog post <span class="editorial">Editorial</span></li>
+                                <li class="check-list">Mobile app luaunch <span class="goals">Q1 Goals</span></li>
+                                <li class="cross-list">Interview John H. <span class="recruiting">Recruiting</span></li>
+                                <li class="check-list">Summit update to mobiile storefronts <span class="mobile">Mobile</span></li>
+                            </ul>
+                        </li>
+                        <!-- Upcoming -->
+                        <li id="upcoming">Upcoming
+                            <ul>
+                                <li class="cross-list">Schedule meeting with Alex</li>
+                                <li class="check-list">Homepage refresh <span class="website">Website</span></li>
+                                <li class="check-list">Onboard new Sales team members <span class="sales">Sales</span></li>
+                                <li class="check-list">Review editorial calendar <span class="editorial">Editorial</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
